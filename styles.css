@@ -1,0 +1,96 @@
+body, ul, li, h1, h2, h3, h5, h6, a, p{
+  margin: 0;
+  padding: 0;
+  font-family: tahoma;
+}
+
+p{
+  font-size: 16px;
+  font-family: arial;
+}
+
+
+h2{
+   color: black;
+   font-size: 50px
+   margin: 0px
+   text-align: center; 
+}
+
+p1{
+  color: white;
+}
+
+h5{
+ color: white;
+ font-size: 30px
+}
+
+body table 1{
+  color: black;
+  font-size: 35px
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table h2{
+   width: 500px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+ th, td {
+   padding: 10 px;
+} 
+td style   {
+    border: 3px black;
+}
+
+th {
+    background-color: Gray;
+    color: white;
+}
+
+tr:nth-child(odd) {
+   background-color: WhiteGhost;
+}
+
+tr:nth-child(even) {
+   background-color: Gainsboro;
+}
+
+h3{
+  color: black;
+   font-size: 50px
+   margin: 0px
+   text-align: center; 
+
+ .images{
+  text-align: center;
+  margin: 80px 0;
+  white-space: nowrap;
+}
+
+.images li{
+  display: inline-block;
+  list-style-type: none;
+  width: 40%;
+  margin: 20px 5%;
+  position: relative;
+}
+.images li:hover{
+  top: -4px;
+}
+.images li img{
+  max-width: 100%;
+}
+
+h4{
+  font-size: 30px
+}
